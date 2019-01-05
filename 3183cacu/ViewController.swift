@@ -290,6 +290,7 @@ class ViewController: UIViewController {
         temp = Double(result.text!)!
         result.text = ""
         temp = temp/100
+        
         result.text = "\(temp)"
     }
     
@@ -297,6 +298,7 @@ class ViewController: UIViewController {
         temp = Double(result.text!)!
         result.text = ""
         temp = -temp
+        
         result.text = "\(temp)"
     }
     
